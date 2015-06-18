@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:latin="http://schemas.android.com/apk/res/com.android.inputmethod.latin">
+    <Key latin:keySpec="1" />
+    <Key latin:keySpec="2" />
+    <Key latin:keySpec="3" />
+    <Key latin:keySpec="4" />
+    <Key latin:keySpec="5" />
+</merge>
