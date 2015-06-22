@@ -93,71 +93,71 @@
                  U+17F1: "៱" KHMER SYMBOL LEK ATTAK MUOY -->
             <Key
                 latin:keySpec="&#x17E1;"
-                latin:keyHintLabel="1"
-                latin:additionalMoreKeys="1"
+                latin:keyHintLabel="!text/keyspec_left_curly_bracket"
+                latin:additionalMoreKeys="!text/keyspec_left_curly_bracket"
                 latin:moreKeys="&#x17F1;" />
             <!-- U+17E2: "២" KHMER DIGIT TWO
                  U+17F2: "៲" KHMER SYMBOL LEK ATTAK PII -->
             <Key
                 latin:keySpec="&#x17E2;"
-                latin:keyHintLabel="2"
-                latin:additionalMoreKeys="2"
+                latin:keyHintLabel="!text/keyspec_right_curly_bracket"
+                latin:additionalMoreKeys="!text/keyspec_right_curly_bracket"
                 latin:moreKeys="&#x17F2;" />
             <!-- U+17E3: "៣" KHMER DIGIT THREE
                  U+17F3: "៳" KHMER SYMBOL LEK ATTAK BEI -->
             <Key
                 latin:keySpec="&#x17E3;"
-                latin:keyHintLabel="3"
-                latin:additionalMoreKeys="3"
+                latin:keyHintLabel="~"
+                latin:additionalMoreKeys="~"
                 latin:moreKeys="&#x17F3;" />
             <!-- U+17E4: "៤" KHMER DIGIT FOUR
                  U+17F4: "៴" KHMER SYMBOL LEK ATTAK BUON -->
             <Key
                 latin:keySpec="&#x17E4;"
-                latin:keyHintLabel="4"
-                latin:additionalMoreKeys="4"
+                latin:keyHintLabel="|"
+                latin:additionalMoreKeys="|"
                 latin:moreKeys="&#x17F4;" />
             <!-- U+17E5: "៥" KHMER DIGIT FIVE
                  U+17F5: "៵" KHMER SYMBOL LEK ATTAK PRAM -->
             <Key
                 latin:keySpec="&#x17E5;"
-                latin:keyHintLabel="5"
-                latin:additionalMoreKeys="5"
+                latin:keyHintLabel="\\"
+                latin:additionalMoreKeys="\\"
                 latin:moreKeys="&#x17F5;" />
             <!-- U+17E6: "៦" KHMER DIGIT SIX
                  U+17F6: "៶" KHMER SYMBOL LEK ATTAK PRAM-MUOY -->
             <Key
                 latin:keySpec="&#x17E6;"
-                latin:keyHintLabel="6"
-                latin:additionalMoreKeys="6"
+                latin:keyHintLabel="="
+                latin:additionalMoreKeys="="
                 latin:moreKeys="&#x17F6;" />
             <!-- U+17E7: "៧" KHMER DIGIT SEVEN
                  U+17F7: "៷" KHMER SYMBOL LEK ATTAK PRAM-PII -->
             <Key
                 latin:keySpec="&#x17E7;"
-                latin:keyHintLabel="7"
-                latin:additionalMoreKeys="7"
+                latin:keyHintLabel="÷"
+                latin:additionalMoreKeys="÷"
                 latin:moreKeys="&#x17F7;" />
             <!-- U+17E8: "៨" KHMER DIGIT EIGHT
                  U+17F8: "៸" KHMER SYMBOL LEK ATTAK PRAM-BEI -->
             <Key
                 latin:keySpec="&#x17E8;"
-                latin:keyHintLabel="8"
-                latin:additionalMoreKeys="8"
+                latin:keyHintLabel="×"
+                latin:additionalMoreKeys="×"
                 latin:moreKeys="&#x17F8;" />
             <!-- U+17E9: "៩" KHMER DIGIT NINE
                  U+17F9: "៹" KHMER SYMBOL LEK ATTAK PRAM-BUON -->
             <Key
                 latin:keySpec="&#x17E9;"
-                latin:keyHintLabel="9"
-                latin:additionalMoreKeys="9"
+                latin:keyHintLabel="["
+                latin:additionalMoreKeys="["
                 latin:moreKeys="&#x17F9;" />
             <!-- U+17E0: "០" KHMER DIGIT ZERO
                  U+17F0: "៰" KHMER SYMBOL LEK ATTAK SON -->
             <Key
                 latin:keySpec="&#x17E0;"
-                latin:keyHintLabel="0"
-                latin:additionalMoreKeys="0"
+                latin:keyHintLabel="]"
+                latin:additionalMoreKeys="]"
                 latin:moreKeys="&#x17F0;" />
             <!-- U+17A5: "ឥ" KHMER INDEPENDENT VOWEL QI
                  U+17A6: "ឦ" KHMER INDEPENDENT VOWEL QII -->

@@ -24,6 +24,12 @@
         latin:keyWidth="8.3333%p"
         latin:keyLabelFlags="fontNormal|autoXScale"
     >
+        <include latin:keyboardLayout="@xml/rowkeys_qwerty0" />
+    </Row>
+    <Row
+        latin:keyWidth="8.3333%p"
+        latin:keyLabelFlags="fontNormal|autoXScale"
+    >
         <include latin:keyboardLayout="@xml/rowkeys_khmer1" />
     </Row>
     <Row

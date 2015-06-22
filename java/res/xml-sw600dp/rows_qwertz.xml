@@ -27,6 +27,15 @@
         latin:keyWidth="9.0%p"
     >
         <include
+            latin:keyboardLayout="@xml/rowkeys_qwertz0" />
+        <Key
+            latin:keyStyle="deleteKeyStyle"
+            latin:keyWidth="fillRight" />
+    </Row>
+    <Row
+        latin:keyWidth="9.0%p"
+    >
+        <include
             latin:keyboardLayout="@xml/rowkeys_qwertz1" />
         <Key
             latin:keyStyle="deleteKeyStyle"

@@ -58,30 +58,30 @@
             <!-- U+0E51: "๑" THAI DIGIT ONE -->
             <Key
                 latin:keySpec="/"
-                latin:keyHintLabel="1"
-                latin:additionalMoreKeys="1"
+                latin:keyHintLabel="!text/keyspec_left_curly_bracket"
+                latin:additionalMoreKeys="!text/keyspec_left_curly_bracket"
                 latin:moreKeys="&#x0E51;"
                 latin:keyLabelFlags="fontDefault" />
             <!-- U+0E52: "๒" THAI DIGIT TWO -->
             <Key
                 latin:keySpec="_"
-                latin:keyHintLabel="2"
-                latin:additionalMoreKeys="2"
+                latin:keyHintLabel="!text/keyspec_right_curly_bracket"
+                latin:additionalMoreKeys="!text/keyspec_right_curly_bracket"
                 latin:moreKeys="&#x0E52;"
                 latin:keyLabelFlags="fontDefault" />
             <!-- U+0E20: "ภ" THAI CHARACTER PHO SAMPHAO
                  U+0E53: "๓" THAI DIGIT THREE -->
             <Key
                 latin:keySpec="&#x0E20;"
-                latin:keyHintLabel="3"
-                latin:additionalMoreKeys="3"
+                latin:keyHintLabel="~"
+                latin:additionalMoreKeys="~"
                 latin:moreKeys="&#x0E53;" />
             <!-- U+0E16: "ถ" THAI CHARACTER THO THUNG
                  U+0E54: "๔" THAI DIGIT FOUR -->
             <Key
                 latin:keySpec="&#x0E16;"
-                latin:keyHintLabel="4"
-                latin:additionalMoreKeys="4"
+                latin:keyHintLabel="|"
+                latin:additionalMoreKeys="|"
                 latin:moreKeys="&#x0E54;" />
             <!-- U+0020: " " SPACE
                  U+0E38: " ุ" THAI CHARACTER SARA U -->
@@ -101,36 +101,36 @@
                  U+0E55: "๕" THAI DIGIT FIVE -->
             <Key
                 latin:keySpec="&#x0E04;"
-                latin:keyHintLabel="5"
-                latin:additionalMoreKeys="5"
+                latin:keyHintLabel="\\"
+                latin:additionalMoreKeys="\\"
                 latin:moreKeys="&#x0E55;" />
             <!-- U+0E15: "ต" THAI CHARACTER TO TAO
                  U+0E56: "๖" THAI DIGIT SIX -->
             <Key
                 latin:keySpec="&#x0E15;"
-                latin:keyHintLabel="6"
-                latin:additionalMoreKeys="6"
+                latin:keyHintLabel="="
+                latin:additionalMoreKeys="="
                 latin:moreKeys="&#x0E56;" />
             <!-- U+0E08: "จ" THAI CHARACTER CHO CHAN
                  U+0E57: "๗" THAI DIGIT SEVEN -->
             <Key
                 latin:keySpec="&#x0E08;"
-                latin:keyHintLabel="7"
-                latin:additionalMoreKeys="7"
+                latin:keyHintLabel="÷"
+                latin:additionalMoreKeys="÷"
                 latin:moreKeys="&#x0E57;" />
             <!-- U+0E02: "ข" THAI CHARACTER KHO KHAI
                  U+0E58: "๘" THAI DIGIT EIGHT -->
             <Key
                 latin:keySpec="&#x0E02;"
-                latin:keyHintLabel="8"
-                latin:additionalMoreKeys="8"
+                latin:keyHintLabel="×"
+                latin:additionalMoreKeys="×"
                 latin:moreKeys="&#x0E58;" />
             <!-- U+0E0A: "ช" THAI CHARACTER CHO CHANG
                  U+0E59: "๙" THAI DIGIT NINE -->
             <Key
                 latin:keySpec="&#x0E0A;"
-                latin:keyHintLabel="9"
-                latin:additionalMoreKeys="9"
+                latin:keyHintLabel="["
+                latin:additionalMoreKeys="["
                 latin:moreKeys="&#x0E59;" />
         </default>
     </switch>

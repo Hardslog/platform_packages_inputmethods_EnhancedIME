@@ -23,45 +23,45 @@
 >
     <Key
         latin:keySpec="q"
-        latin:keyHintLabel="1"
-        latin:additionalMoreKeys="1" />
+        latin:keyHintLabel="!text/keyspec_left_curly_bracket"
+        latin:additionalMoreKeys="!text/keyspec_left_curly_bracket" />
     <Key
         latin:keySpec="w"
-        latin:keyHintLabel="2"
-        latin:additionalMoreKeys="2"
+        latin:keyHintLabel="!text/keyspec_right_curly_bracket"
+        latin:additionalMoreKeys="!text/keyspec_right_curly_bracket"
         latin:moreKeys="!text/morekeys_w" />
     <Key
         latin:keySpec="f"
-        latin:keyHintLabel="3"
-        latin:additionalMoreKeys="3" />
+        latin:keyHintLabel="~"
+        latin:additionalMoreKeys="~" />
     <Key
         latin:keySpec="p"
-        latin:keyHintLabel="4"
-        latin:additionalMoreKeys="4" />
+        latin:keyHintLabel="|"
+        latin:additionalMoreKeys="|"/>
     <Key
         latin:keySpec="g"
-        latin:keyHintLabel="5"
-        latin:additionalMoreKeys="5"
+        latin:keyHintLabel="\\"
+        latin:additionalMoreKeys="\\"
         latin:moreKeys="!text/morekeys_g" />
     <Key
         latin:keySpec="j"
-        latin:keyHintLabel="6"
-        latin:additionalMoreKeys="6"
+        latin:keyHintLabel="="
+        latin:additionalMoreKeys="="
         latin:moreKeys="!text/morekeys_j" />
     <Key
         latin:keySpec="l"
-        latin:keyHintLabel="7"
-        latin:additionalMoreKeys="7"
+        latin:keyHintLabel="÷"
+        latin:additionalMoreKeys="÷"
         latin:moreKeys="!text/morekeys_l" />
     <Key
         latin:keySpec="u"
-        latin:keyHintLabel="8"
-        latin:additionalMoreKeys="8"
+        latin:keyHintLabel="×"
+        latin:additionalMoreKeys="×"
         latin:moreKeys="!text/morekeys_u" />
     <Key
         latin:keySpec="y"
-        latin:keyHintLabel="9"
-        latin:additionalMoreKeys="9"
+        latin:keyHintLabel="["
+        latin:additionalMoreKeys="["
         latin:moreKeys="!text/morekeys_y" />
     <switch>
         <case
@@ -69,14 +69,14 @@
         >
             <Key
                 latin:keySpec=":"
-                latin:keyHintLabel="0"
-                latin:additionalMoreKeys="0" />
+                latin:keyHintLabel="]"
+                latin:additionalMoreKeys="]" />
         </case>
         <default>
             <Key
                 latin:keySpec=";"
-                latin:keyHintLabel="0"
-                latin:additionalMoreKeys="0"
+                latin:keyHintLabel="]"
+                latin:additionalMoreKeys="]"
                 latin:moreKeys=":" />
         </default>
     </switch>

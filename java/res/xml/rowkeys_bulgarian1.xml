@@ -24,55 +24,55 @@
     <!-- U+044F: "я" CYRILLIC SMALL LETTER YA -->
     <Key
         latin:keySpec="&#x044F;"
-        latin:keyHintLabel="1"
-        latin:additionalMoreKeys="1" />
+        latin:keyHintLabel="!text/keyspec_left_curly_bracket"
+        latin:additionalMoreKeys="!text/keyspec_left_curly_bracket" />
     <!-- U+0432: "в" CYRILLIC SMALL LETTER VE -->
     <Key
         latin:keySpec="&#x0432;"
-        latin:keyHintLabel="2"
-        latin:additionalMoreKeys="2" />
+        latin:keyHintLabel="!text/keyspec_right_curly_bracket"
+        latin:additionalMoreKeys="!text/keyspec_right_curly_bracket" />
     <!-- U+0435: "е" CYRILLIC SMALL LETTER IE -->
     <Key
         latin:keySpec="&#x0435;"
-        latin:keyHintLabel="3"
-        latin:additionalMoreKeys="3" />
+        latin:keyHintLabel="~"
+        latin:additionalMoreKeys="~" />
     <!-- U+0440: "р" CYRILLIC SMALL LETTER ER -->
     <Key
         latin:keySpec="&#x0440;"
-        latin:keyHintLabel="4"
-        latin:additionalMoreKeys="4" />
+        latin:keyHintLabel="|"
+        latin:additionalMoreKeys="|" />
     <!-- U+0442: "т" CYRILLIC SMALL LETTER TE -->
     <Key
         latin:keySpec="&#x0442;"
-        latin:keyHintLabel="5"
-        latin:additionalMoreKeys="5" />
+        latin:keyHintLabel="\\"
+        latin:additionalMoreKeys="\\" />
     <!-- U+044A: "ъ" CYRILLIC SMALL LETTER HARD SIGN -->
     <Key
         latin:keySpec="&#x044A;"
-        latin:keyHintLabel="6"
-        latin:additionalMoreKeys="6" />
+        latin:keyHintLabel="="
+        latin:additionalMoreKeys="=" />
     <!-- U+0443: "у" CYRILLIC SMALL LETTER U -->
     <Key
         latin:keySpec="&#x0443;"
-        latin:keyHintLabel="7"
-        latin:additionalMoreKeys="7" />
+        latin:keyHintLabel="÷"
+        latin:additionalMoreKeys="÷" />
     <!-- U+0438: "и" CYRILLIC SMALL LETTER I
          U+045D: "ѝ" CYRILLIC SMALL LETTER I WITH GRAVE -->
     <Key
         latin:keySpec="&#x0438;"
-        latin:keyHintLabel="8"
-        latin:additionalMoreKeys="8"
+        latin:keyHintLabel="×"
+        latin:additionalMoreKeys="×"
         latin:moreKeys="&#x045D;" />
     <!-- U+043E: "о" CYRILLIC SMALL LETTER O -->
     <Key
         latin:keySpec="&#x043E;"
-        latin:keyHintLabel="9"
-        latin:additionalMoreKeys="9" />
+        latin:keyHintLabel="["
+        latin:additionalMoreKeys="["/>
     <!-- U+043F: "п" CYRILLIC SMALL LETTER PE -->
     <Key
         latin:keySpec="&#x043F;"
-        latin:keyHintLabel="0"
-        latin:additionalMoreKeys="0" />
+        latin:keyHintLabel="]"
+        latin:additionalMoreKeys="]" />
     <!-- U+0447: "ч" CYRILLIC SMALL LETTER CHE -->
     <Key
         latin:keySpec="&#x0447;" />

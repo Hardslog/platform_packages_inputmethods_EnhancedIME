@@ -24,6 +24,15 @@
         latin:keyWidth="7.5%p"
         latin:keyLabelFlags="fontNormal"
     >
+        <include latin:keyboardLayout="@xml/rowkeys_qwerty0" />
+        <Key
+            latin:keyStyle="deleteKeyStyle"
+            latin:keyWidth="fillRight" />
+    </Row>
+    <Row
+        latin:keyWidth="7.5%p"
+        latin:keyLabelFlags="fontNormal"
+    >
         <include latin:keyboardLayout="@xml/rowkeys_lao1" />
         <Key
             latin:keyStyle="deleteKeyStyle"

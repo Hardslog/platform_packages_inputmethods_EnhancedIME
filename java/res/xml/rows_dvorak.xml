@@ -27,8 +27,14 @@
         latin:keyWidth="10%p"
     >
         <include
+            latin:keyboardLayout="@xml/rowkeys_qwerty0" />
+    </Row>
+    <Row
+        latin:keyWidth="10%p"
+    >
+        <include
             latin:keyboardLayout="@xml/rowkeys_dvorak1" />
-        </Row>
+    </Row>
     <Row
         latin:keyWidth="10%p"
     >
