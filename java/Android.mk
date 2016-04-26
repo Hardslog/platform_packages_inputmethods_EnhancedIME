@@ -19,7 +19,7 @@ LOCAL_MODULE_TAGS := optional
 
 LOCAL_SRC_FILES := $(call all-java-files-under, src ../java-overridable/src)
 
-LOCAL_PACKAGE_NAME := LatinIME
+LOCAL_PACKAGE_NAME := EnhancedIME
 
 LOCAL_CERTIFICATE := shared
 
