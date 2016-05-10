@@ -84,4 +84,7 @@
     <color name="setup_welcome_video_margin_color">#FFCCCCCC</color>
     <!-- Accent color for the notification. We need to match this to the OS build -->
     <color name="notification_accent_color">#FF607D8B</color>
+    <!-- Extra colors for HS_Dark theme. -->
+    <color name="key_hint_letter_color_hs_dark">#D8F0F0F0</color>
+    <color name="key_hint_label_color_hs_dark">#D8F0F0F0</color>
 </resources>

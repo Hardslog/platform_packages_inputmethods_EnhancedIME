@@ -20,6 +20,7 @@ import static com.android.inputmethod.keyboard.KeyboardTheme.THEME_ID_ICS;
 import static com.android.inputmethod.keyboard.KeyboardTheme.THEME_ID_KLP;
 import static com.android.inputmethod.keyboard.KeyboardTheme.THEME_ID_LXX_DARK;
 import static com.android.inputmethod.keyboard.KeyboardTheme.THEME_ID_LXX_LIGHT;
+import static com.android.inputmethod.keyboard.KeyboardTheme.THEME_ID_HS_DARK;
 
 import android.content.SharedPreferences;
 import android.os.Build;
@@ -55,6 +56,7 @@ public class KeyboardThemeTests extends AndroidTestCase {
         case THEME_ID_KLP:
         case THEME_ID_LXX_LIGHT:
         case THEME_ID_LXX_DARK:
+        case THEME_ID_HS_DARK:
             return true;
         default:
             return false;
@@ -106,6 +108,7 @@ public class KeyboardThemeTests extends AndroidTestCase {
         assertKeyboardThemePreference(sdkVersion, THEME_ID_KLP, THEME_ID_KLP);
         assertKeyboardThemePreference(sdkVersion, THEME_ID_LXX_LIGHT, THEME_ID_LXX_LIGHT);
         assertKeyboardThemePreference(sdkVersion, THEME_ID_LXX_DARK, THEME_ID_LXX_DARK);
+        assertKeyboardThemePreference(sdkVersion, THEME_ID_HS_DARK, THEME_ID_HS_DARK);
         assertKeyboardThemePreference(sdkVersion, THEME_ID_UNKNOWN, defaultThemeId);
         assertKeyboardThemePreference(sdkVersion, THEME_ID_ILLEGAL, defaultThemeId);
     }
@@ -126,6 +129,7 @@ public class KeyboardThemeTests extends AndroidTestCase {
         assertKeyboardThemePreference(sdkVersion, THEME_ID_KLP, THEME_ID_KLP);
         assertKeyboardThemePreference(sdkVersion, THEME_ID_LXX_LIGHT, THEME_ID_LXX_LIGHT);
         assertKeyboardThemePreference(sdkVersion, THEME_ID_LXX_DARK, THEME_ID_LXX_DARK);
+        assertKeyboardThemePreference(sdkVersion, THEME_ID_HS_DARK, THEME_ID_HS_DARK);
         assertKeyboardThemePreference(sdkVersion, THEME_ID_UNKNOWN, defaultThemeId);
         assertKeyboardThemePreference(sdkVersion, THEME_ID_ILLEGAL, defaultThemeId);
     }
