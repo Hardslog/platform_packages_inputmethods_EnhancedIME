@@ -2,7 +2,7 @@
 <!--
 /*
 **
-** Copyright 2011, The Android Open Source Project
+** Copyright 2010, The Android Open Source Project
 **
 ** Licensed under the Apache License, Version 2.0 (the "License");
 ** you may not use this file except in compliance with the License.
@@ -24,46 +24,37 @@
     <include
         latin:keyboardLayout="@xml/key_styles_common" />
     <Row
-        latin:keyWidth="9.0%p"
+        latin:keyWidth="10%p"
     >
         <include
             latin:keyboardLayout="@xml/rowkeys_qwerty0" />
-        <Key
-            latin:keyStyle="deleteKeyStyle"
-            latin:keyWidth="fillRight" />
     </Row>
     <Row
-        latin:keyWidth="9.0%p"
+        latin:keyWidth="10%p"
     >
         <include
             latin:keyboardLayout="@xml/rowkeys_qwerty1" />
-        <Key
-            latin:keyStyle="deleteKeyStyle"
-            latin:keyWidth="fillRight" />
     </Row>
     <Row
-        latin:keyWidth="9.0%p"
+        latin:keyWidth="10%p"
     >
         <include
             latin:keyboardLayout="@xml/rowkeys_qwerty2"
-            latin:keyXPos="4.5%p" />
-        <Key
-            latin:keyStyle="enterKeyStyle"
-            latin:keyWidth="fillRight" />
+            latin:keyXPos="5%p" />
     </Row>
     <Row
-        latin:keyWidth="9.0%p"
+        latin:keyWidth="10%p"
     >
         <Key
             latin:keyStyle="shiftKeyStyle"
-            latin:keyWidth="10.0%p" />
+            latin:keyWidth="15%p"
+            latin:visualInsetsRight="1%p" />
         <include
             latin:keyboardLayout="@xml/rowkeys_qwerty3" />
-        <include
-            latin:keyboardLayout="@xml/keys_exclamation_question" />
         <Key
-            latin:keyStyle="shiftKeyStyle"
-            latin:keyWidth="fillRight" />
+            latin:keyStyle="deleteKeyStyle"
+            latin:keyWidth="fillRight"
+            latin:visualInsetsLeft="1%p" />
     </Row>
     <include
         latin:keyboardLayout="@xml/row_qwerty4" />

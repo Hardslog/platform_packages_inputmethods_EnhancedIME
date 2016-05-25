@@ -2,7 +2,7 @@
 <!--
 /*
 **
-** Copyright 2013, The Android Open Source Project
+** Copyright 2012, The Android Open Source Project
 **
 ** Licensed under the Apache License, Version 2.0 (the "License");
 ** you may not use this file except in compliance with the License.
@@ -24,9 +24,11 @@
     <!-- Navigate more keys style -->
     <include latin:keyboardLayout="@xml/key_styles_navigate_more_keys" />
     <switch>
+        <!-- latin:passwordInput="true" -->
         <case
             latin:imeAction="actionNext"
             latin:navigatePrevious="true"
+            latin:passwordInput="true"
         >
             <key-style
                 latin:styleName="navigateMoreKeysStyle"
@@ -34,6 +36,7 @@
         </case>
         <case
             latin:imeAction="actionNext"
+            latin:passwordInput="true"
         >
             <key-style
                 latin:styleName="navigateMoreKeysStyle" />
@@ -41,6 +44,7 @@
         <case
             latin:imeAction="actionPrevious"
             latin:navigateNext="true"
+            latin:passwordInput="true"
         >
             <key-style
                 latin:styleName="navigateMoreKeysStyle"
@@ -48,6 +52,7 @@
         </case>
         <case
             latin:imeAction="actionPrevious"
+            latin:passwordInput="true"
         >
             <key-style
                 latin:styleName="navigateMoreKeysStyle" />
@@ -55,6 +60,7 @@
         <case
             latin:navigateNext="true"
             latin:navigatePrevious="true"
+            latin:passwordInput="true"
         >
             <key-style
                 latin:styleName="navigateMoreKeysStyle"
@@ -62,6 +68,7 @@
         </case>
         <case
             latin:navigateNext="true"
+            latin:passwordInput="true"
         >
             <key-style
                 latin:styleName="navigateMoreKeysStyle"
@@ -69,14 +76,139 @@
         </case>
         <case
             latin:navigatePrevious="true"
+            latin:passwordInput="true"
         >
             <key-style
                 latin:styleName="navigateMoreKeysStyle"
                 latin:parentStyle="navigatePreviousMoreKeysStyle" />
         </case>
-        <default>
+        <case
+            latin:passwordInput="true"
+        >
             <key-style
                 latin:styleName="navigateMoreKeysStyle" />
+        </case>
+        <!-- latin:mode="email|url|phone|number|date|time|datetime" -->
+        <case
+            latin:imeAction="actionNext"
+            latin:navigatePrevious="true"
+            latin:mode="email|url|phone|number|date|time|datetime"
+        >
+            <key-style
+                latin:styleName="navigateMoreKeysStyle"
+                latin:parentStyle="navigatePreviousMoreKeysStyle" />
+        </case>
+        <case
+            latin:imeAction="actionNext"
+            latin:mode="email|url|phone|number|date|time|datetime"
+        >
+            <key-style
+                latin:styleName="navigateMoreKeysStyle" />
+        </case>
+        <case
+            latin:imeAction="actionPrevious"
+            latin:navigateNext="true"
+            latin:mode="email|url|phone|number|date|time|datetime"
+        >
+            <key-style
+                latin:styleName="navigateMoreKeysStyle"
+                latin:parentStyle="navigateNextMoreKeysStyle" />
+        </case>
+        <case
+            latin:imeAction="actionPrevious"
+            latin:mode="email|url|phone|number|date|time|datetime"
+        >
+            <key-style
+                latin:styleName="navigateMoreKeysStyle" />
+        </case>
+        <case
+            latin:navigateNext="true"
+            latin:navigatePrevious="true"
+            latin:mode="email|url|phone|number|date|time|datetime"
+        >
+            <key-style
+                latin:styleName="navigateMoreKeysStyle"
+                latin:parentStyle="navigatePreviousNextMoreKeysStyle" />
+        </case>
+        <case
+            latin:navigateNext="true"
+            latin:mode="email|url|phone|number|date|time|datetime"
+        >
+            <key-style
+                latin:styleName="navigateMoreKeysStyle"
+                latin:parentStyle="navigateNextMoreKeysStyle" />
+        </case>
+        <case
+            latin:navigatePrevious="true"
+            latin:mode="email|url|phone|number|date|time|datetime"
+        >
+            <key-style
+                latin:styleName="navigateMoreKeysStyle"
+                latin:parentStyle="navigatePreviousMoreKeysStyle" />
+        </case>
+        <case
+            latin:mode="email|url|phone|number|date|time|datetime"
+        >
+            <key-style
+                latin:styleName="navigateMoreKeysStyle" />
+        </case>
+        <!-- default -->
+        <case
+            latin:imeAction="actionNext"
+            latin:navigatePrevious="true"
+        >
+            <key-style
+                latin:styleName="navigateMoreKeysStyle"
+                latin:parentStyle="navigateEmojiPreviousMoreKeysStyle" />
+        </case>
+        <case
+            latin:imeAction="actionNext"
+        >
+            <key-style
+                latin:styleName="navigateMoreKeysStyle"
+                latin:parentStyle="navigateEmojiMoreKeysStyle" />
+        </case>
+        <case
+            latin:imeAction="actionPrevious"
+            latin:navigateNext="true"
+        >
+            <key-style
+                latin:styleName="navigateMoreKeysStyle"
+                latin:parentStyle="navigateEmojiNextMoreKeysStyle" />
+        </case>
+        <case
+            latin:imeAction="actionPrevious"
+        >
+            <key-style
+                latin:styleName="navigateMoreKeysStyle"
+                latin:parentStyle="navigateEmojiMoreKeysStyle" />
+        </case>
+        <case
+            latin:navigateNext="true"
+            latin:navigatePrevious="true"
+        >
+            <key-style
+                latin:styleName="navigateMoreKeysStyle"
+                latin:parentStyle="navigateEmojiPreviousNextMoreKeysStyle" />
+        </case>
+        <case
+            latin:navigateNext="true"
+        >
+            <key-style
+                latin:styleName="navigateMoreKeysStyle"
+                latin:parentStyle="navigateEmojiNextMoreKeysStyle" />
+        </case>
+        <case
+            latin:navigatePrevious="true"
+        >
+            <key-style
+                latin:styleName="navigateMoreKeysStyle"
+                latin:parentStyle="navigateEmojiPreviousMoreKeysStyle" />
+        </case>
+        <default>
+            <key-style
+                latin:styleName="navigateMoreKeysStyle"
+                latin:parentStyle="navigateEmojiMoreKeysStyle" />
         </default>
     </switch>
     <!-- Enter key style -->
@@ -112,6 +244,15 @@
                 latin:styleName="enterKeyStyle"
                 latin:keySpec="!icon/enter_key|!code/key_shift_enter"
                 latin:parentStyle="defaultEnterKeyStyle" />
+        </case>
+        <!-- Smiley in textShortMessage field.
+             This <case> should be after Shift + Enter <case> and before any of action <case>. -->
+        <case
+            latin:mode="im"
+        >
+            <key-style
+                latin:styleName="enterKeyStyle"
+                latin:parentStyle="emojiKeyStyle" />
         </case>
         <case
             latin:imeAction="actionGo"
