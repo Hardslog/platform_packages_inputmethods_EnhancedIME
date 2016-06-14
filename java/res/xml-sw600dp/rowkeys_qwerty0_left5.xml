@@ -20,9 +20,23 @@
 
 <merge
   xmlns:latin="http://schemas.android.com/apk/res/com.android.inputmethod.latin">
-    <Key latin:keySpec="1" />
-    <Key latin:keySpec="2" />
-    <Key latin:keySpec="3" />
-    <Key latin:keySpec="4" />
-    <Key latin:keySpec="5" />
+    <Key latin:keySpec="1" 
+         latin:keyHintLabel=" ͜ʖ"
+         latin:moreKeys="( ͡° ͜ʖ ͡°)"
+         latin:additionalMoreKeys="( ͠° ͟ʖ ͡°)" />
+    <Key latin:keySpec="2" 
+         latin:keyHintLabel="ツ"
+         latin:additionalMoreKeys="¯\\"
+         latin:moreKeys="_(ツ)_/¯" />
+    <Key latin:keySpec="3"
+         latin:keyHintLabel="︵"
+         latin:additionalMoreKeys="(╯°□°）╯︵ ┻━┻" />
+    <Key latin:keySpec="4" 
+         latin:keyHintLabel="▃"
+         latin:moreKeys="⊙▃⊙"
+         latin:additionalMoreKeys="⚆▃⚆"/>
+    <Key latin:keySpec="5"
+         latin:keyHintLabel="ಠ"
+         latin:moreKeys="ಠ_ಠ" 
+         latin:additionalMoreKeys="(ಥ﹏ಥ)"  />
 </merge>
