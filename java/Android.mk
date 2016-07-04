@@ -21,6 +21,8 @@ LOCAL_SRC_FILES := $(call all-java-files-under, src ../java-overridable/src)
 
 LOCAL_PACKAGE_NAME := EnhancedIME
 
+LOCAL_OVERRIDES_PACKAGES := LatinIME
+
 LOCAL_CERTIFICATE := shared
 
 LOCAL_JNI_SHARED_LIBRARIES := libjni_latinime
@@ -38,7 +40,9 @@ LOCAL_SDK_VERSION := current
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
+ifeq ($(TARGET_DEVICE),generic_arm64)
 LOCAL_MODULE_PATH := $(TARGET_OUT_DATA)
 LOCAL_MULTILIB := both
+endif
 
 include $(BUILD_PACKAGE)
