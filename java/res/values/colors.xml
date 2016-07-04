@@ -87,4 +87,14 @@
     <!-- Extra colors for HS_Dark theme. -->
     <color name="key_hint_letter_color_hs_dark">#D8F0F0F0</color>
     <color name="key_hint_label_color_hs_dark">#D8F0F0F0</color>
+    <!-- Extra colors for Blackout theme. -->
+    <color name="key_hint_letter_color_blackout">#FFFFFF</color>
+    <color name="highlight_color_blackout">#ffffff</color>
+    <color name="suggested_word_color_blackout">#FFFFFF</color>
+    <color name="suggested_word_background_selected_blackout">#000000</color>
+    <color name="gesture_trail_color_blackout">#ffffff</color>
+    <color name="sliding_key_input_preview_color_blackout">#B3ffffff</color>
+    <color name="key_background_blackout">#000000</color>
+    <color name="key_background_pressed_blackout">#19000000</color>
+    <color name="emoji_tab_page_indicator_background_blackout">#000000</color>
 </resources>
