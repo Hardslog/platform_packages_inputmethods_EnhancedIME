@@ -26,17 +26,18 @@
          latin:additionalMoreKeys="( ͠° ͟ʖ ͡°)" />
     <Key latin:keySpec="2" 
          latin:keyHintLabel="ツ"
-         latin:additionalMoreKeys="¯\\"
-         latin:moreKeys="_(ツ)_/¯" />
+         latin:additionalMoreKeys="¯ǀ_(ツ)_ǀ¯"
+         latin:moreKeys="¯ǀ_(☉Д☉)_ǀ¯" />
     <Key latin:keySpec="3"
          latin:keyHintLabel="︵"
-         latin:additionalMoreKeys="(╯°□°）╯︵ ┻━┻" />
+         latin:additionalMoreKeys="(╯°□°）╯︵"
+         latin:moreKeys="┻━┻" />
     <Key latin:keySpec="4" 
-         latin:keyHintLabel="▃"
-         latin:moreKeys="⊙▃⊙"
-         latin:additionalMoreKeys="⚆▃⚆"/>
+         latin:keyHintLabel="o"
+         latin:moreKeys="⌐(.O.)¬"
+         latin:additionalMoreKeys="┬─┬" />
     <Key latin:keySpec="5"
-         latin:keyHintLabel="ಠ"
-         latin:moreKeys="ಠ_ಠ" 
-         latin:additionalMoreKeys="(ಥ﹏ಥ)"  />
+         latin:keyHintLabel="⊃"
+         latin:moreKeys="(∩•̀‸•́)⊃/̵͇̿̿/’̿’̿ ̿" 
+         latin:additionalMoreKeys="(∩•̀‸•́)⊃[̶——"  />
 </merge>
