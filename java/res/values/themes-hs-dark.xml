@@ -19,8 +19,8 @@
 -->
 
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
-    <style name="KeyboardTheme.HS_Dark" parent="KeyboardIcons.Holo">
-        <item name="inputViewStyle">@style/InputView.Holo</item>
+    <style name="KeyboardTheme.HS_Dark" parent="KeyboardIcons.LXX_Dark">
+        <item name="inputViewStyle">@style/InputView.LXX</item>
         <item name="keyboardStyle">@style/Keyboard.HS_Dark</item>
         <item name="keyboardViewStyle">@style/KeyboardView.HS_Dark</item>
         <item name="mainKeyboardViewStyle">@style/MainKeyboardView.HS_Dark</item>
@@ -40,20 +40,20 @@
     </style>
     <style
         name="KeyboardView.HS_Dark"
-        parent="KeyboardView.Holo"
+        parent="KeyboardView.LXX"
     >
         <item name="android:background">@drawable/keyboard_background_holo</item>
         <item name="keyBackground">@drawable/btn_keyboard_key_hs_dark</item>
         <item name="functionalKeyBackground">@drawable/btn_keyboard_key_functional_hs_dark</item>
         <item name="spacebarBackground">@drawable/btn_keyboard_spacebar_hs_dark</item>
-        <item name="keyTextColor">@color/key_text_color_holo</item>
-        <item name="keyTextInactivatedColor">@color/key_text_inactivated_color_holo</item>
-        <item name="functionalTextColor">@color/key_text_color_holo</item>
+        <item name="keyTextColor">@color/key_text_color_lxx_dark</item>
+        <item name="keyTextInactivatedColor">@color/key_functional_text_color_lxx_dark</item>
+        <item name="functionalTextColor">@color/key_text_color_lxx_dark</item>
         <item name="keyHintLetterColor">@color/key_hint_letter_color_hs_dark</item>
         <item name="keyHintLabelColor">@color/key_hint_label_color_hs_dark</item>
-        <item name="keyShiftedLetterHintInactivatedColor">@color/key_shifted_letter_hint_inactivated_color_holo</item>
-        <item name="keyShiftedLetterHintActivatedColor">@color/key_shifted_letter_hint_activated_color_holo</item>
-        <item name="keyPreviewTextColor">@color/key_text_color_holo</item>
+        <item name="keyShiftedLetterHintInactivatedColor">@color/key_text_inactive_color_lxx_dark</item>
+        <item name="keyShiftedLetterHintActivatedColor">@color/key_text_color_lxx_dark</item>
+        <item name="keyPreviewTextColor">@color/key_text_color_lxx_dark</item>
     </style>
     <style
         name="MainKeyboardView.HS_Dark"
@@ -69,8 +69,7 @@
         <item name="gestureFloatingPreviewColor">@color/gesture_floating_preview_color_lxx_dark</item>
         <item name="gestureTrailColor">@color/gesture_trail_color_lxx_dark</item>
         <item name="slidingKeyInputPreviewColor">@color/sliding_key_input_preview_color_lxx_dark</item>
-        <item name="languageOnSpacebarTextColor">@color/spacebar_text_color_holo</item>
-        <item name="languageOnSpacebarTextShadowColor">@color/spacebar_text_shadow_color_holo</item>
+        <item name="languageOnSpacebarTextColor">@color/key_text_inactive_color_lxx_dark</item>
         <item name="languageOnSpacebarTextShadowRadius">-1.0</item>
     </style>
     <!-- Though {@link com.android.inputmethod.keyboard.emoji.EmojiPalettesView} doesn't extend
@@ -81,28 +80,26 @@
         name="EmojiPalettesView.HS_Dark"
         parent="MainKeyboardView.HS_Dark"
     >
-        <item name="categoryIndicatorEnabled">true</item>
-        <item name="categoryIndicatorDrawable">@drawable/emoji_category_tab_selected_klp</item>
-        <item name="categoryIndicatorBackground">@drawable/emoji_category_tab_unselected_holo_dark</item>
-        <item name="categoryPageIndicatorColor">@color/highlight_color_klp</item>
-        <item name="categoryPageIndicatorBackground">@color/emoji_tab_page_indicator_background_holo</item>
-        <item name="iconEmojiRecentsTab">@drawable/ic_emoji_recents_holo_dark</item>
-        <item name="iconEmojiCategory1Tab">@drawable/ic_emoji_people_holo_dark</item>
-        <item name="iconEmojiCategory2Tab">@drawable/ic_emoji_objects_holo_dark</item>
-        <item name="iconEmojiCategory3Tab">@drawable/ic_emoji_nature_holo_dark</item>
-        <item name="iconEmojiCategory4Tab">@drawable/ic_emoji_places_holo_dark</item>
-        <item name="iconEmojiCategory5Tab">@drawable/ic_emoji_symbols_holo_dark</item>
-        <item name="iconEmojiCategory6Tab">@drawable/ic_emoji_emoticons_holo_dark</item>
-        <item name="iconEmojiCategory7Tab">@drawable/ic_emoji_flag_holo_dark</item>
-        <item name="iconEmojiCategory8Tab">@drawable/ic_emoji_people_holo_dark</item>
-        <item name="iconEmojiCategory9Tab">@drawable/ic_emoji_nature_holo_dark</item>
-        <item name="iconEmojiCategory10Tab">@drawable/ic_emoji_food_holo_dark</item>
-        <item name="iconEmojiCategory11Tab">@drawable/ic_emoji_places_holo_dark</item>
-        <item name="iconEmojiCategory12Tab">@drawable/ic_emoji_activity_holo_dark</item>
-        <item name="iconEmojiCategory13Tab">@drawable/ic_emoji_objects_holo_dark</item>
-        <item name="iconEmojiCategory14Tab">@drawable/ic_emoji_symbols_holo_dark</item>
-        <item name="iconEmojiCategory15Tab">@drawable/ic_emoji_flag_holo_dark</item>
-        <item name="iconEmojiCategory16Tab">@drawable/ic_emoji_people_holo_dark</item>
+        <item name="categoryIndicatorEnabled">false</item>
+        <item name="categoryPageIndicatorColor">@color/highlight_color_blackout</item>
+        <item name="categoryPageIndicatorBackground">@color/emoji_tab_page_indicator_background_lxx_dark</item>
+        <item name="iconEmojiRecentsTab">@drawable/ic_emoji_recents_lxx_dark</item>
+        <item name="iconEmojiCategory1Tab">@drawable/ic_emoji_people_lxx_dark</item>
+        <item name="iconEmojiCategory2Tab">@drawable/ic_emoji_objects_lxx_dark</item>
+        <item name="iconEmojiCategory3Tab">@drawable/ic_emoji_nature_lxx_dark</item>
+        <item name="iconEmojiCategory4Tab">@drawable/ic_emoji_places_lxx_dark</item>
+        <item name="iconEmojiCategory5Tab">@drawable/ic_emoji_symbols_lxx_dark</item>
+        <item name="iconEmojiCategory6Tab">@drawable/ic_emoji_emoticons_lxx_dark</item>
+        <item name="iconEmojiCategory7Tab">@drawable/ic_emoji_flag_lxx_dark</item>
+        <item name="iconEmojiCategory8Tab">@drawable/ic_emoji_people_lxx_dark</item>
+        <item name="iconEmojiCategory9Tab">@drawable/ic_emoji_nature_lxx_dark</item>
+        <item name="iconEmojiCategory10Tab">@drawable/ic_emoji_food_lxx_dark</item>
+        <item name="iconEmojiCategory11Tab">@drawable/ic_emoji_places_lxx_dark</item>
+        <item name="iconEmojiCategory12Tab">@drawable/ic_emoji_activity_lxx_dark</item>
+        <item name="iconEmojiCategory13Tab">@drawable/ic_emoji_objects_lxx_dark</item>
+        <item name="iconEmojiCategory14Tab">@drawable/ic_emoji_symbols_lxx_dark</item>
+        <item name="iconEmojiCategory15Tab">@drawable/ic_emoji_flag_lxx_dark</item>
+        <item name="iconEmojiCategory16Tab">@drawable/ic_emoji_people_lxx_dark</item>
     </style>
     <style
         name="MoreKeysKeyboard.HS_Dark"
@@ -117,7 +114,7 @@
         name="MoreKeysKeyboardView.HS_Dark"
         parent="KeyboardView.HS_Dark"
     >
-        <item name="android:background">@drawable/keyboard_popup_panel_background_klp</item>
+        <item name="android:background">@drawable/keyboard_popup_panel_background_lxx_dark</item>
         <item name="keyBackground">@drawable/btn_keyboard_key_popup_hs_dark</item>
         <item name="divider">@drawable/more_keys_divider</item>
         <item name="keyTypeface">normal</item>
