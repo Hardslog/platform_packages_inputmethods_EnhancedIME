@@ -355,8 +355,10 @@ mobile devices. [CHAR LIMIT=25] -->
     <string name="keyboard_theme_material_dark" translatable="false">Material Dark</string>
     <!-- The keyboard theme name, Material Light. This is marked as translatable="false" because this is a proper name of system-wide UI Theme.  -->
     <string name="keyboard_theme_material_light" translatable="false">Material Light</string>
-    <!-- The keyboard theme name, Hardslog Light. This is marked as translatable="false" because this is a proper name of system-wide UI Theme.  -->
+    <!-- The keyboard theme name, Hardslog Dark. This is marked as translatable="false" because this is a proper name of system-wide UI Theme.  -->
     <string name="keyboard_theme_hardslog_dark" translatable="false">Hardslog Dark</string>
+    <!-- The keyboard theme name, Hardslog Light. This is marked as translatable="false" because this is a proper name of system-wide UI Theme.  -->
+    <string name="keyboard_theme_hardslog_light" translatable="false">Hardslog Light</string>
 <!-- The keyboard theme name, Blackout. This is marked as translatable="false" because this is a proper name of system-wide UI Theme.  -->
     <string name="keyboard_theme_blackout" translatable="false">Blackout</string>
     <!-- Title of the preference settings for custom input styles (language and keyboard layout pairs) [CHAR LIMIT=35]-->
