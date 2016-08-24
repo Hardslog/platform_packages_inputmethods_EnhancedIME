@@ -27,7 +27,7 @@
     <string name="sound_on_keypress" msgid="6093592297198243644">"按键音效"</string>
     <string name="popup_on_keypress" msgid="123894815723512944">"按键时弹出显示字符"</string>
     <string name="settings_screen_preferences" msgid="2696713156722014624">"偏好设置"</string>
-    <string name="settings_screen_accounts" msgid="2786418968536696670">"帐户和隐私权"</string>
+    <string name="settings_screen_accounts" msgid="2786418968536696670">"帐号和隐私权"</string>
     <string name="settings_screen_appearance" msgid="7358046399111611615">"外观和布局"</string>
     <string name="settings_screen_gesture" msgid="8826372746901183556">"滑行输入"</string>
     <string name="settings_screen_correction" msgid="1616818407747682955">"文字更正"</string>
@@ -44,8 +44,8 @@
     <string name="clear_sync_data_ok" msgid="613104067705915132">"删除"</string>
     <string name="cloud_sync_cancel" msgid="5877481252150919037">"取消"</string>
     <string name="cloud_sync_opt_in_text" msgid="9176039655776298248">"您的个人字典将会同步并备份到 Google 服务器。系统可能会收集字词出现频率的统计信息，来帮助改进我们的产品。所有信息的收集和使用都会遵守 "<a href="https://www.google.com/policies/privacy">"Google 隐私权政策"</a>"。"</string>
-    <string name="add_account_to_enable_sync" msgid="7836932571852055265">"要启用此功能，请将 Google 帐户添加到此设备中"</string>
-    <string name="cloud_sync_summary_disabled_work_profile" msgid="1381770407303129164">"在登录了 Google Apps for Business 帐户的设备上无法使用同步功能"</string>
+    <string name="add_account_to_enable_sync" msgid="7836932571852055265">"要启用此功能，请将 Google 帐号添加到此设备中"</string>
+    <string name="cloud_sync_summary_disabled_work_profile" msgid="1381770407303129164">"在登录了 Google Apps for Business 帐号的设备上无法使用同步功能"</string>
     <string name="include_other_imes_in_language_switch_list" msgid="4533689960308565519">"切换到其他输入法"</string>
     <string name="include_other_imes_in_language_switch_list_summary" msgid="840637129103317635">"语言切换键也可用于切换其他输入法"</string>
     <string name="show_language_switch_key" msgid="5915478828318774384">"语言切换键"</string>
@@ -86,22 +86,22 @@
     <string name="gesture_space_aware" msgid="2078291600664682496">"词组滑行输入"</string>
     <string name="gesture_space_aware_summary" msgid="4371385818348528538">"滑行输入时，滑过空格键即可输入空格"</string>
     <string name="voice_input" msgid="3583258583521397548">"语音输入键"</string>
-    <string name="voice_input_disabled_summary" msgid="8141750303464726129">"未启用任何语音输入法。请检查“语言和输入法”设置。"</string>
+    <string name="voice_input_disabled_summary" msgid="6323489602945135165">"未启用任何语音输入法。请检查“语言和输入法”设置。"</string>
     <string name="configure_input_method" msgid="373356270290742459">"配置输入法"</string>
     <string name="language_selection_title" msgid="3666971864764478269">"语言"</string>
     <string name="help_and_feedback" msgid="5328219371839879161">"帮助和反馈"</string>
     <string name="select_language" msgid="5709487854987078367">"语言"</string>
-    <string name="hint_add_to_dictionary" msgid="573678656946085380">"再次触摸即可保存"</string>
-    <string name="hint_add_to_dictionary_without_word" msgid="3040385779511255101">"触摸此处即可保存"</string>
+    <string name="hint_add_to_dictionary" msgid="2645988432867033007">"再次点按即可保存"</string>
+    <string name="hint_add_to_dictionary_without_word" msgid="6710206006427574423">"点按此处即可保存"</string>
     <string name="has_dictionary" msgid="6071847973466625007">"有可用字典"</string>
     <string name="keyboard_layout" msgid="8451164783510487501">"键盘主题"</string>
-    <string name="switch_accounts" msgid="3321216593719006162">"切换帐户"</string>
-    <string name="no_accounts_selected" msgid="2073821619103904330">"未选择任何帐户"</string>
+    <string name="switch_accounts" msgid="3321216593719006162">"切换帐号"</string>
+    <string name="no_accounts_selected" msgid="2073821619103904330">"未选择任何帐号"</string>
     <string name="account_selected" msgid="2846876462199625974">"当前使用的是<xliff:g id="EMAIL_ADDRESS">%1$s</xliff:g>"</string>
     <string name="account_select_ok" msgid="9141195141763227797">"确定"</string>
     <string name="account_select_cancel" msgid="5181012062618504340">"取消"</string>
-    <string name="account_select_sign_out" msgid="3299651159390187933">"退出帐户"</string>
-    <string name="account_select_title" msgid="6279711684772922649">"选择要使用的帐户"</string>
+    <string name="account_select_sign_out" msgid="3299651159390187933">"退出帐号"</string>
+    <string name="account_select_title" msgid="6279711684772922649">"选择要使用的帐号"</string>
     <string name="subtype_en_GB" msgid="88170601942311355">"英语(英国)"</string>
     <string name="subtype_en_US" msgid="6160452336634534239">"英语(美国)"</string>
     <string name="subtype_es_US" msgid="5583145191430180200">"西班牙语（美国）"</string>
@@ -123,17 +123,17 @@
     <string name="subtype_no_language_pcqwerty" msgid="5354918232046200018">"字母 (PC)"</string>
     <string name="subtype_emoji" msgid="7483586578074549196">"表情符号"</string>
     <string name="keyboard_theme" msgid="4909551808526178852">"键盘主题"</string>
-    <string name="custom_input_styles_title" msgid="8429952441821251512">"自定义输入风格"</string>
+    <string name="custom_input_styles_title" msgid="8429952441821251512">"自定义输入样式"</string>
     <string name="add_style" msgid="6163126614514489951">"添加样式"</string>
     <string name="add" msgid="8299699805688017798">"添加"</string>
     <string name="remove" msgid="4486081658752944606">"删除"</string>
     <string name="save" msgid="7646738597196767214">"保存"</string>
     <string name="subtype_locale" msgid="8576443440738143764">"语言"</string>
     <string name="keyboard_layout_set" msgid="4309233698194565609">"布局"</string>
-    <string name="custom_input_style_note_message" msgid="8826731320846363423">"您需要先启用自定义输入风格，然后才能开始使用。要立即启用该风格吗？"</string>
+    <string name="custom_input_style_note_message" msgid="8826731320846363423">"您需要先启用自定义输入样式，然后才能开始使用。要立即启用该样式吗？"</string>
     <string name="enable" msgid="5031294444630523247">"启用"</string>
     <string name="not_now" msgid="6172462888202790482">"以后再说"</string>
-    <string name="custom_input_style_already_exists" msgid="8008728952215449707">"已经存在相同的输入风格：<xliff:g id="INPUT_STYLE_NAME">%s</xliff:g>"</string>
+    <string name="custom_input_style_already_exists" msgid="8008728952215449707">"已经存在相同的输入样式：<xliff:g id="INPUT_STYLE_NAME">%s</xliff:g>"</string>
     <string name="prefs_keypress_vibration_duration_settings" msgid="7918341459947439226">"按键振动时长"</string>
     <string name="prefs_keypress_sound_volume_settings" msgid="6027007337036891623">"按键音量"</string>
     <string name="prefs_key_longpress_timeout_settings" msgid="6102240298932897873">"按键长按延迟"</string>
@@ -146,8 +146,8 @@
     <string name="setup_next_action" msgid="371821437915144603">"下一步"</string>
     <string name="setup_steps_title" msgid="6400373034871816182">"设置 <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
     <string name="setup_step1_title" msgid="3147967630253462315">"启用 <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
-    <string name="setup_step1_instruction" msgid="2578631936624637241">"请在“语言和输入法”设置中选中“<xliff:g id="APPLICATION_NAME">%s</xliff:g>”，授权这项应用在您的设备上运行。"</string>
-    <string name="setup_step1_finished_instruction" msgid="10761482004957994">"您已在“语言和输入法”设置中启用了 <xliff:g id="APPLICATION_NAME">%s</xliff:g>，因此这一步骤已完成。继续下一步吧！"</string>
+    <string name="setup_step1_instruction" msgid="4295448056733329661">"请在“语言和输入法”设置中选中“<xliff:g id="APPLICATION_NAME">%s</xliff:g>”，授权该应用在您的设备上运行。"</string>
+    <string name="setup_step1_finished_instruction" msgid="8701441895377434947">"您已在“语言和输入法”中启用了<xliff:g id="APPLICATION_NAME">%s</xliff:g>，因此这一步骤已完成。继续下一步吧！"</string>
     <string name="setup_step1_action" msgid="4366513534999901728">"在设置中启用"</string>
     <string name="setup_step2_title" msgid="6860725447906690594">"切换到 <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
     <string name="setup_step2_instruction" msgid="9141481964870023336">"接下来，请选择“<xliff:g id="APPLICATION_NAME">%s</xliff:g>”作为您要使用的文字输入法。"</string>
@@ -183,7 +183,7 @@
     <string name="install_dict" msgid="180852772562189365">"安装"</string>
     <string name="cancel_download_dict" msgid="7843340278507019303">"取消"</string>
     <string name="delete_dict" msgid="756853268088330054">"删除"</string>
-    <string name="should_download_over_metered_prompt" msgid="1583881200688185508">"您的移动设备上选择的语言有一个字典可供下载。&lt;br/&gt;我们建议您&lt;b&gt;下载&lt;/b&gt;这个<xliff:g id="LANGUAGE_NAME">%1$s</xliff:g>字典，以便获得更好的输入体验。&lt;br/&gt;&lt;br/&gt;通过3G网络下载可能需要一两分钟的时间。如果您使用的不是&lt;b&gt;无流量限制的套餐&lt;/b&gt;，则可能产生一定的流量费。&lt;br/&gt;如果您不确定自己使用的是哪种流量套餐，我们建议您连接到WLAN网络以便自动开始下载。&lt;br/&gt;&lt;br/&gt;提示：您可以在移动设备上的&lt;b&gt;语言和输入法&lt;/b&gt;部分（位于&lt;b&gt;设置&lt;/b&gt;菜单中）下载和删除字典。"</string>
+    <string name="should_download_over_metered_prompt" msgid="6737084685073734292">"您在移动设备上选择的语言有可用的字典可供下载。&lt;br/&gt;建议您&lt;b&gt;下载&lt;/b&gt;该<xliff:g id="LANGUAGE_NAME">%1$s</xliff:g>字典，以便获得更好的输入体验。&lt;br/&gt; &lt;br/&gt;通过 3G 网络下载可能需要一两分钟的时间。如果您使用的不是&lt;b&gt;无流量限制的套餐&lt;/b&gt;，则可能需要额外支付流量费用。&lt;br/&gt;如果您不确定自己使用的是哪种流量套餐，建议您连接到 WLAN 网络后再自动开始下载。&lt;br/&gt; &lt;br/&gt;提示：您可以在移动设备上转到&lt;b&gt;语言和输入法&lt;/b&gt;（位于&lt;b&gt;设置&lt;/b&gt;菜单中）来下载及移除字典。"</string>
     <string name="download_over_metered" msgid="1643065851159409546">"立即下载 (<xliff:g id="SIZE_IN_MEGABYTES">%1$.1f</xliff:g>MB)"</string>
     <string name="do_not_download_over_metered" msgid="2176209579313941583">"通过WLAN网络下载"</string>
     <string name="dict_available_notification_title" msgid="4583842811218581658">"有一个<xliff:g id="LANGUAGE_NAME">%1$s</xliff:g>字典可供下载"</string>
@@ -204,7 +204,7 @@
     <string name="user_dict_settings_edit_dialog_title" msgid="3765774633869590352">"修改字词"</string>
     <string name="user_dict_settings_context_menu_edit_title" msgid="6812255903472456302">"修改"</string>
     <string name="user_dict_settings_context_menu_delete_title" msgid="8142932447689461181">"删除"</string>
-    <string name="user_dict_settings_empty_text" msgid="558499587532668203">"用户字典中没有您定义的任何字词。您可以触摸“添加”(+) 按钮添加字词。"</string>
+    <string name="user_dict_settings_empty_text" msgid="6889278304342592383">"用户字典中没有任何字词。要添加字词，请点按“添加”(+) 按钮。"</string>
     <string name="user_dict_settings_all_languages" msgid="8276126583216298886">"所有语言"</string>
     <string name="user_dict_settings_more_languages" msgid="7131268499685180461">"更多语言…"</string>
     <string name="user_dict_settings_delete" msgid="110413335187193859">"删除"</string>
