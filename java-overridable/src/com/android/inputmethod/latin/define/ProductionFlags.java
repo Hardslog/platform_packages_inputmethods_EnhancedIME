@@ -25,7 +25,7 @@ public final class ProductionFlags {
 
     /**
      * Include all suggestions from all dictionaries in
-     * {@link com.android.inputmethod.latin.SuggestedWords#mRawSuggestions}.
+     * {@link com.android.inputmethod.enhancedime.SuggestedWords#mRawSuggestions}.
      */
     public static final boolean INCLUDE_RAW_SUGGESTIONS = false;
 

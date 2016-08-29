@@ -30,19 +30,19 @@ import com.android.inputmethod.keyboard.KeyboardLayoutSet.KeyboardLayoutSetExcep
 import com.android.inputmethod.keyboard.emoji.EmojiPalettesView;
 import com.android.inputmethod.keyboard.internal.KeyboardState;
 import com.android.inputmethod.keyboard.internal.KeyboardTextsSet;
-import com.android.inputmethod.latin.InputView;
-import com.android.inputmethod.latin.LatinIME;
-import com.android.inputmethod.latin.R;
-import com.android.inputmethod.latin.RichInputMethodManager;
-import com.android.inputmethod.latin.WordComposer;
+import com.android.inputmethod.enhancedime.InputView;
+import com.android.inputmethod.enhancedime.LatinIME;
+import com.android.inputmethod.enhancedime.R;
+import com.android.inputmethod.enhancedime.RichInputMethodManager;
+import com.android.inputmethod.enhancedime.WordComposer;
 import com.android.inputmethod.latin.define.ProductionFlags;
-import com.android.inputmethod.latin.settings.Settings;
-import com.android.inputmethod.latin.settings.SettingsValues;
-import com.android.inputmethod.latin.utils.CapsModeUtils;
-import com.android.inputmethod.latin.utils.LanguageOnSpacebarUtils;
-import com.android.inputmethod.latin.utils.RecapitalizeStatus;
-import com.android.inputmethod.latin.utils.ResourceUtils;
-import com.android.inputmethod.latin.utils.ScriptUtils;
+import com.android.inputmethod.enhancedime.settings.Settings;
+import com.android.inputmethod.enhancedime.settings.SettingsValues;
+import com.android.inputmethod.enhancedime.utils.CapsModeUtils;
+import com.android.inputmethod.enhancedime.utils.LanguageOnSpacebarUtils;
+import com.android.inputmethod.enhancedime.utils.RecapitalizeStatus;
+import com.android.inputmethod.enhancedime.utils.ResourceUtils;
+import com.android.inputmethod.enhancedime.utils.ScriptUtils;
 
 import javax.annotation.Nonnull;
 

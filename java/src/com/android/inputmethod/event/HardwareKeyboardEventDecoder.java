@@ -19,7 +19,7 @@ package com.android.inputmethod.event;
 import android.view.KeyCharacterMap;
 import android.view.KeyEvent;
 
-import com.android.inputmethod.latin.common.Constants;
+import com.android.inputmethod.enhancedime.common.Constants;
 
 /**
  * A hardware event decoder for a hardware qwerty-ish keyboard.

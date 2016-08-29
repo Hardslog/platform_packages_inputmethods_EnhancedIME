@@ -27,7 +27,7 @@ import android.view.Gravity;
 import android.widget.TextView;
 
 import com.android.inputmethod.keyboard.Key;
-import com.android.inputmethod.latin.R;
+import com.android.inputmethod.enhancedime.R;
 
 import java.util.HashSet;
 

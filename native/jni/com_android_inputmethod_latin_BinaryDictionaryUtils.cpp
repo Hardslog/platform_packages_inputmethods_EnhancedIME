@@ -99,7 +99,7 @@ static const JNINativeMethod sMethods[] = {
 };
 
 int register_BinaryDictionaryUtils(JNIEnv *env) {
-    const char *const kClassPathName = "com/android/inputmethod/latin/utils/BinaryDictionaryUtils";
+    const char *const kClassPathName = "com/android/inputmethod/enhancedime/utils/BinaryDictionaryUtils";
     return registerNativeMethods(env, kClassPathName, sMethods, NELEMS(sMethods));
 }
 } // namespace latinime

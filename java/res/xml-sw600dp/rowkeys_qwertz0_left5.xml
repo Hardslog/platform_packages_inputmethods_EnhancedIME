@@ -19,7 +19,7 @@
 -->
 
 <merge
-  xmlns:latin="http://schemas.android.com/apk/res/com.android.inputmethod.latin">
+  xmlns:latin="http://schemas.android.com/apk/res/com.android.inputmethod.enhancedime">
     <Key latin:keySpec="1" />
     <Key latin:keySpec="2" />
     <Key latin:keySpec="3" />

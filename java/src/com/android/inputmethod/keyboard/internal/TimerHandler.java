@@ -22,8 +22,8 @@ import android.view.ViewConfiguration;
 
 import com.android.inputmethod.keyboard.Key;
 import com.android.inputmethod.keyboard.PointerTracker;
-import com.android.inputmethod.latin.common.Constants;
-import com.android.inputmethod.latin.utils.LeakGuardHandlerWrapper;
+import com.android.inputmethod.enhancedime.common.Constants;
+import com.android.inputmethod.enhancedime.utils.LeakGuardHandlerWrapper;
 
 import javax.annotation.Nonnull;
 

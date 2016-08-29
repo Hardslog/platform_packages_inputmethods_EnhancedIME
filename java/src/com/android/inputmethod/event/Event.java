@@ -17,9 +17,9 @@
 package com.android.inputmethod.event;
 
 import com.android.inputmethod.annotations.ExternallyReferenced;
-import com.android.inputmethod.latin.SuggestedWords.SuggestedWordInfo;
-import com.android.inputmethod.latin.common.Constants;
-import com.android.inputmethod.latin.common.StringUtils;
+import com.android.inputmethod.enhancedime.SuggestedWords.SuggestedWordInfo;
+import com.android.inputmethod.enhancedime.common.Constants;
+import com.android.inputmethod.enhancedime.common.StringUtils;
 
 import javax.annotation.Nonnull;
 

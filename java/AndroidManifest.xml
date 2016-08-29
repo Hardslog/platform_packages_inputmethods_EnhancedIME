@@ -15,8 +15,10 @@
 -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-        coreApp="true"
-        package="com.android.inputmethod.latin">
+	coreApp="true"
+        package="com.android.inputmethod.enhancedime"
+	android:versionCode="1"
+	android:versionName="1.0.4">
 
     <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="23" />
 
@@ -142,7 +144,7 @@
 
         <receiver android:name="DictionaryPackInstallBroadcastReceiver" android:exported="false">
             <intent-filter>
-                <action android:name="com.android.inputmethod.dictionarypack.aosp.UNKNOWN_CLIENT" />
+                <action android:name="com.android.inputmethod.dictionarypack.eime.UNKNOWN_CLIENT" />
             </intent-filter>
         </receiver>
 
@@ -150,8 +152,8 @@
             <intent-filter>
                 <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
                 <action android:name="android.intent.action.DATE_CHANGED" />
-                <action android:name="com.android.inputmethod.dictionarypack.aosp.UPDATE_NOW" />
-                <action android:name="com.android.inputmethod.dictionarypack.aosp.INIT_AND_UPDATE_NOW" />
+                <action android:name="com.android.inputmethod.dictionarypack.eime.UPDATE_NOW" />
+                <action android:name="com.android.inputmethod.dictionarypack.eime.INIT_AND_UPDATE_NOW" />
             </intent-filter>
         </receiver>
 

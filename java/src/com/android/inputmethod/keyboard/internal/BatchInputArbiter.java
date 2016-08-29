@@ -16,8 +16,8 @@
 
 package com.android.inputmethod.keyboard.internal;
 
-import com.android.inputmethod.latin.common.Constants;
-import com.android.inputmethod.latin.common.InputPointers;
+import com.android.inputmethod.enhancedime.common.Constants;
+import com.android.inputmethod.enhancedime.common.InputPointers;
 
 /**
  * This class arbitrates batch input.

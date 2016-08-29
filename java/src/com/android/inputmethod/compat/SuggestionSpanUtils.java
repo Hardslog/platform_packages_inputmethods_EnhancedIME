@@ -24,9 +24,9 @@ import android.text.TextUtils;
 import android.text.style.SuggestionSpan;
 
 import com.android.inputmethod.annotations.UsedForTesting;
-import com.android.inputmethod.latin.SuggestedWords;
-import com.android.inputmethod.latin.SuggestedWords.SuggestedWordInfo;
-import com.android.inputmethod.latin.common.LocaleUtils;
+import com.android.inputmethod.enhancedime.SuggestedWords;
+import com.android.inputmethod.enhancedime.SuggestedWords.SuggestedWordInfo;
+import com.android.inputmethod.enhancedime.common.LocaleUtils;
 import com.android.inputmethod.latin.define.DebugFlags;
 
 import java.lang.reflect.Field;

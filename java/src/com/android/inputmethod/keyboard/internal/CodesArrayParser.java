@@ -16,8 +16,8 @@
 
 package com.android.inputmethod.keyboard.internal;
 
-import com.android.inputmethod.latin.common.Constants;
-import com.android.inputmethod.latin.common.StringUtils;
+import com.android.inputmethod.enhancedime.common.Constants;
+import com.android.inputmethod.enhancedime.common.StringUtils;
 
 import android.text.TextUtils;
 

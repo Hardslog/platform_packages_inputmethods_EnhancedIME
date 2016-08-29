@@ -20,9 +20,9 @@ import android.text.TextUtils;
 import android.util.Log;
 
 import com.android.inputmethod.event.Event;
-import com.android.inputmethod.latin.common.Constants;
-import com.android.inputmethod.latin.utils.CapsModeUtils;
-import com.android.inputmethod.latin.utils.RecapitalizeStatus;
+import com.android.inputmethod.enhancedime.common.Constants;
+import com.android.inputmethod.enhancedime.utils.CapsModeUtils;
+import com.android.inputmethod.enhancedime.utils.RecapitalizeStatus;
 
 /**
  * Keyboard state machine.

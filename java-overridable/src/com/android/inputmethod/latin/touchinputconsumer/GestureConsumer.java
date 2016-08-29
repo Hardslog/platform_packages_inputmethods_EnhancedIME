@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin.touchinputconsumer;
+package com.android.inputmethod.enhancedime.touchinputconsumer;
 
 import android.view.inputmethod.EditorInfo;
 
 import com.android.inputmethod.keyboard.Keyboard;
-import com.android.inputmethod.latin.DictionaryFacilitator;
-import com.android.inputmethod.latin.SuggestedWords;
-import com.android.inputmethod.latin.common.InputPointers;
-import com.android.inputmethod.latin.inputlogic.PrivateCommandPerformer;
+import com.android.inputmethod.enhancedime.DictionaryFacilitator;
+import com.android.inputmethod.enhancedime.SuggestedWords;
+import com.android.inputmethod.enhancedime.common.InputPointers;
+import com.android.inputmethod.enhancedime.inputlogic.PrivateCommandPerformer;
 
 import java.util.Locale;
 

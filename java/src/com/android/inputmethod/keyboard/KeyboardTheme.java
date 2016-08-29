@@ -24,7 +24,7 @@ import android.preference.PreferenceManager;
 import android.util.Log;
 
 import com.android.inputmethod.compat.BuildCompatUtils;
-import com.android.inputmethod.latin.R;
+import com.android.inputmethod.enhancedime.R;
 
 import java.util.ArrayList;
 import java.util.Arrays;

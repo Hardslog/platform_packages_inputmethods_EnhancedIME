@@ -18,8 +18,8 @@ package com.android.inputmethod.keyboard.internal;
 
 import android.content.res.TypedArray;
 
-import com.android.inputmethod.latin.R;
-import com.android.inputmethod.latin.utils.ResourceUtils;
+import com.android.inputmethod.enhancedime.R;
+import com.android.inputmethod.enhancedime.utils.ResourceUtils;
 
 /**
  * This class holds parameters to control how a gesture stroke is sampled and recognized.

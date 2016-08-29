@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin.settings;
+package com.android.inputmethod.enhancedime.settings;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.preference.PreferenceFragment;
 import android.view.inputmethod.InputMethodSubtype;
 
-import com.android.inputmethod.latin.RichInputMethodSubtype;
-import com.android.inputmethod.latin.RichInputMethodManager;
+import com.android.inputmethod.enhancedime.RichInputMethodSubtype;
+import com.android.inputmethod.enhancedime.RichInputMethodManager;
 
 import javax.annotation.Nonnull;
 

@@ -22,8 +22,8 @@ import android.util.Log;
 
 import com.android.inputmethod.keyboard.Key;
 import com.android.inputmethod.keyboard.Keyboard;
-import com.android.inputmethod.latin.settings.Settings;
-import com.android.inputmethod.latin.utils.JsonUtils;
+import com.android.inputmethod.enhancedime.settings.Settings;
+import com.android.inputmethod.enhancedime.utils.JsonUtils;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;

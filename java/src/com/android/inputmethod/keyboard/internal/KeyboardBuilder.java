@@ -32,12 +32,12 @@ import com.android.inputmethod.keyboard.Key;
 import com.android.inputmethod.keyboard.Keyboard;
 import com.android.inputmethod.keyboard.KeyboardId;
 import com.android.inputmethod.keyboard.KeyboardTheme;
-import com.android.inputmethod.latin.R;
-import com.android.inputmethod.latin.common.Constants;
-import com.android.inputmethod.latin.common.StringUtils;
-import com.android.inputmethod.latin.utils.ResourceUtils;
-import com.android.inputmethod.latin.utils.XmlParseUtils;
-import com.android.inputmethod.latin.utils.XmlParseUtils.ParseException;
+import com.android.inputmethod.enhancedime.R;
+import com.android.inputmethod.enhancedime.common.Constants;
+import com.android.inputmethod.enhancedime.common.StringUtils;
+import com.android.inputmethod.enhancedime.utils.ResourceUtils;
+import com.android.inputmethod.enhancedime.utils.XmlParseUtils;
+import com.android.inputmethod.enhancedime.utils.XmlParseUtils.ParseException;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;

@@ -20,8 +20,8 @@ import android.content.res.TypedArray;
 import android.util.Log;
 import android.util.SparseArray;
 
-import com.android.inputmethod.latin.R;
-import com.android.inputmethod.latin.utils.XmlParseUtils;
+import com.android.inputmethod.enhancedime.R;
+import com.android.inputmethod.enhancedime.utils.XmlParseUtils;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;

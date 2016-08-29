@@ -16,8 +16,8 @@
 
 package com.android.inputmethod.keyboard;
 
-import static com.android.inputmethod.latin.common.Constants.ImeOption.FORCE_ASCII;
-import static com.android.inputmethod.latin.common.Constants.ImeOption.NO_SETTINGS_KEY;
+import static com.android.inputmethod.enhancedime.common.Constants.ImeOption.FORCE_ASCII;
+import static com.android.inputmethod.enhancedime.common.Constants.ImeOption.NO_SETTINGS_KEY;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -35,14 +35,14 @@ import com.android.inputmethod.compat.InputMethodSubtypeCompatUtils;
 import com.android.inputmethod.keyboard.internal.KeyboardBuilder;
 import com.android.inputmethod.keyboard.internal.KeyboardParams;
 import com.android.inputmethod.keyboard.internal.UniqueKeysCache;
-import com.android.inputmethod.latin.InputAttributes;
-import com.android.inputmethod.latin.R;
-import com.android.inputmethod.latin.RichInputMethodSubtype;
+import com.android.inputmethod.enhancedime.InputAttributes;
+import com.android.inputmethod.enhancedime.R;
+import com.android.inputmethod.enhancedime.RichInputMethodSubtype;
 import com.android.inputmethod.latin.define.DebugFlags;
-import com.android.inputmethod.latin.utils.InputTypeUtils;
-import com.android.inputmethod.latin.utils.ScriptUtils;
-import com.android.inputmethod.latin.utils.SubtypeLocaleUtils;
-import com.android.inputmethod.latin.utils.XmlParseUtils;
+import com.android.inputmethod.enhancedime.utils.InputTypeUtils;
+import com.android.inputmethod.enhancedime.utils.ScriptUtils;
+import com.android.inputmethod.enhancedime.utils.SubtypeLocaleUtils;
+import com.android.inputmethod.enhancedime.utils.XmlParseUtils;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;

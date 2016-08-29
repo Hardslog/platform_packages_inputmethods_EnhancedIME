@@ -15,12 +15,12 @@
  */
 
 
-package com.android.inputmethod.latin.utils;
+package com.android.inputmethod.enhancedime.utils;
 
 import android.content.Context;
 
-import com.android.inputmethod.latin.DictionaryFacilitator;
-import com.android.inputmethod.latin.settings.SettingsValues;
+import com.android.inputmethod.enhancedime.DictionaryFacilitator;
+import com.android.inputmethod.enhancedime.settings.SettingsValues;
 
 @SuppressWarnings("unused")
 public class StatsUtilsManager {

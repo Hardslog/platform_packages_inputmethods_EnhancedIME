@@ -214,7 +214,7 @@
     <declare-styleable name="SuggestionStripView">
         <attr name="suggestionStripOptions" format="integer">
             <!-- This should be aligned with
-                 {@link com.android.inputmethod.latin.suggestions.SuggestionStripLayoutHelper.AUTO_CORRECT_BOLD} etc. -->
+                 {@link com.android.inputmethod.enhancedime.suggestions.SuggestionStripLayoutHelper.AUTO_CORRECT_BOLD} etc. -->
             <flag name="autoCorrectBold" value="0x01" />
             <flag name="autoCorrectUnderline" value="0x02" />
             <flag name="validTypedWordBold" value="0x04" />
@@ -413,11 +413,11 @@
         <attr name="keyShiftedLetterHintRatio" format="fraction" />
         <!-- The label's horizontal offset to the center of the key. Negative is to left and
              positive is to right. The value is in proportion of the width of
-             {@link com.android.inputmethod.latin.utils.TypefaceUtils#KEY_LABEL_REFERENCE_CHAR}. -->
+             {@link com.android.inputmethod.enhancedime.utils.TypefaceUtils#KEY_LABEL_REFERENCE_CHAR}. -->
         <attr name="keyLabelOffCenterRatio" format="fraction" />
         <!-- The hint label's horizontal offset to the center of the key. Negative is to left and
              positive is to right. The value is in proportion of the width of
-             {@link com.android.inputmethod.latin.utils.TypefaceUtils#KEY_LABEL_REFERENCE_CHAR}. -->
+             {@link com.android.inputmethod.enhancedime.utils.TypefaceUtils#KEY_LABEL_REFERENCE_CHAR}. -->
         <attr name="keyHintLabelOffCenterRatio" format="fraction" />
         <!-- Color to use for the label in a key. -->
         <attr name="keyTextColor" format="color" />
@@ -518,7 +518,7 @@
             <enum name="actionDone" value="6" />
             <enum name="actionPrevious" value="7" />
             <!-- This should be aligned with
-                 {@link com.android.inputmethod.latin.utils.InputTypeUtils#IME_ACTION_CUSTOM_LABEL}. -->
+                 {@link com.android.inputmethod.enhancedime.utils.InputTypeUtils#IME_ACTION_CUSTOM_LABEL}. -->
             <enum name="actionCustomLabel" value="0x100" />
         </attr>
         <attr name="isIconDefined" format="string" />
@@ -577,7 +577,7 @@
 
     <declare-styleable name="KeyboardLayoutSet_Feature">
         <!-- This should be aligned with
-             {@link com.android.inputmethod.latin.utils.ScriptUtils#SCRIPT_ARABIC} etc. -->
+             {@link com.android.inputmethod.enhancedime.utils.ScriptUtils#SCRIPT_ARABIC} etc. -->
         <attr name="supportedScript" format="enum">
             <enum name="arabic" value="0" />
             <enum name="armenian" value="1" />

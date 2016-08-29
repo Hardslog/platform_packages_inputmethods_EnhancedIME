@@ -17,10 +17,10 @@
 package com.android.inputmethod.keyboard;
 
 import static com.android.inputmethod.keyboard.internal.KeyboardIconsSet.ICON_UNDEFINED;
-import static com.android.inputmethod.latin.common.Constants.CODE_OUTPUT_TEXT;
-import static com.android.inputmethod.latin.common.Constants.CODE_SHIFT;
-import static com.android.inputmethod.latin.common.Constants.CODE_SWITCH_ALPHA_SYMBOL;
-import static com.android.inputmethod.latin.common.Constants.CODE_UNSPECIFIED;
+import static com.android.inputmethod.enhancedime.common.Constants.CODE_OUTPUT_TEXT;
+import static com.android.inputmethod.enhancedime.common.Constants.CODE_SHIFT;
+import static com.android.inputmethod.enhancedime.common.Constants.CODE_SWITCH_ALPHA_SYMBOL;
+import static com.android.inputmethod.enhancedime.common.Constants.CODE_UNSPECIFIED;
 
 import android.content.res.TypedArray;
 import android.graphics.Rect;
@@ -36,9 +36,9 @@ import com.android.inputmethod.keyboard.internal.KeyboardIconsSet;
 import com.android.inputmethod.keyboard.internal.KeyboardParams;
 import com.android.inputmethod.keyboard.internal.KeyboardRow;
 import com.android.inputmethod.keyboard.internal.MoreKeySpec;
-import com.android.inputmethod.latin.R;
-import com.android.inputmethod.latin.common.Constants;
-import com.android.inputmethod.latin.common.StringUtils;
+import com.android.inputmethod.enhancedime.R;
+import com.android.inputmethod.enhancedime.common.Constants;
+import com.android.inputmethod.enhancedime.common.StringUtils;
 
 import java.util.Arrays;
 import java.util.Locale;

@@ -19,7 +19,7 @@ package com.android.inputmethod.event;
 import android.text.SpannableStringBuilder;
 import android.text.TextUtils;
 
-import com.android.inputmethod.latin.common.Constants;
+import com.android.inputmethod.enhancedime.common.Constants;
 
 import java.util.ArrayList;
 

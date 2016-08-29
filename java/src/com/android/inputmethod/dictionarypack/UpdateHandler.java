@@ -38,11 +38,11 @@ import android.util.Log;
 
 import com.android.inputmethod.compat.ConnectivityManagerCompatUtils;
 import com.android.inputmethod.compat.NotificationCompatUtils;
-import com.android.inputmethod.latin.R;
-import com.android.inputmethod.latin.common.LocaleUtils;
-import com.android.inputmethod.latin.makedict.FormatSpec;
-import com.android.inputmethod.latin.utils.ApplicationUtils;
-import com.android.inputmethod.latin.utils.DebugLogUtils;
+import com.android.inputmethod.enhancedime.R;
+import com.android.inputmethod.enhancedime.common.LocaleUtils;
+import com.android.inputmethod.enhancedime.makedict.FormatSpec;
+import com.android.inputmethod.enhancedime.utils.ApplicationUtils;
+import com.android.inputmethod.enhancedime.utils.DebugLogUtils;
 
 import java.io.File;
 import java.io.FileInputStream;

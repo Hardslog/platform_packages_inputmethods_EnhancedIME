@@ -14,10 +14,10 @@
  * limitations under the License
  */
 
-package com.android.inputmethod.latin.utils;
+package com.android.inputmethod.enhancedime.utils;
 
-import com.android.inputmethod.latin.AssetFileAddress;
-import com.android.inputmethod.latin.makedict.DictionaryHeader;
+import com.android.inputmethod.enhancedime.AssetFileAddress;
+import com.android.inputmethod.enhancedime.makedict.DictionaryHeader;
 
 import java.io.File;
 

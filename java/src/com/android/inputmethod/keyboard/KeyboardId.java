@@ -16,15 +16,15 @@
 
 package com.android.inputmethod.keyboard;
 
-import static com.android.inputmethod.latin.common.Constants.Subtype.ExtraValue.KEYBOARD_LAYOUT_SET;
+import static com.android.inputmethod.enhancedime.common.Constants.Subtype.ExtraValue.KEYBOARD_LAYOUT_SET;
 
 import android.text.InputType;
 import android.text.TextUtils;
 import android.view.inputmethod.EditorInfo;
 
 import com.android.inputmethod.compat.EditorInfoCompatUtils;
-import com.android.inputmethod.latin.RichInputMethodSubtype;
-import com.android.inputmethod.latin.utils.InputTypeUtils;
+import com.android.inputmethod.enhancedime.RichInputMethodSubtype;
+import com.android.inputmethod.enhancedime.utils.InputTypeUtils;
 
 import java.util.Arrays;
 import java.util.Locale;

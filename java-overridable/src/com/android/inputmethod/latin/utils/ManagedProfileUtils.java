@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin.utils;
+package com.android.inputmethod.enhancedime.utils;
 
 import android.content.Context;
 

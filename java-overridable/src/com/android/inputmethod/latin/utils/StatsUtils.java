@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin.utils;
+package com.android.inputmethod.enhancedime.utils;
 
 import android.view.inputmethod.InputMethodSubtype;
 
-import com.android.inputmethod.latin.DictionaryFacilitator;
-import com.android.inputmethod.latin.RichInputMethodManager;
-import com.android.inputmethod.latin.SuggestedWords;
-import com.android.inputmethod.latin.settings.SettingsValues;
+import com.android.inputmethod.enhancedime.DictionaryFacilitator;
+import com.android.inputmethod.enhancedime.RichInputMethodManager;
+import com.android.inputmethod.enhancedime.SuggestedWords;
+import com.android.inputmethod.enhancedime.settings.SettingsValues;
 
 import javax.annotation.Nullable;
 

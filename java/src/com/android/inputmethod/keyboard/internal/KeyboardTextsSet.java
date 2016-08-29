@@ -21,9 +21,9 @@ import android.content.res.Resources;
 import android.text.TextUtils;
 
 import com.android.inputmethod.annotations.UsedForTesting;
-import com.android.inputmethod.latin.common.Constants;
-import com.android.inputmethod.latin.utils.RunInLocale;
-import com.android.inputmethod.latin.utils.SubtypeLocaleUtils;
+import com.android.inputmethod.enhancedime.common.Constants;
+import com.android.inputmethod.enhancedime.utils.RunInLocale;
+import com.android.inputmethod.enhancedime.utils.SubtypeLocaleUtils;
 
 import java.util.Locale;
 

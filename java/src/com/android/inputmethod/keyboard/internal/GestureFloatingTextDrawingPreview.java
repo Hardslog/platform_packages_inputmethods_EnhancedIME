@@ -25,9 +25,9 @@ import android.graphics.RectF;
 import android.text.TextUtils;
 
 import com.android.inputmethod.keyboard.PointerTracker;
-import com.android.inputmethod.latin.R;
-import com.android.inputmethod.latin.SuggestedWords;
-import com.android.inputmethod.latin.common.CoordinateUtils;
+import com.android.inputmethod.enhancedime.R;
+import com.android.inputmethod.enhancedime.SuggestedWords;
+import com.android.inputmethod.enhancedime.common.CoordinateUtils;
 
 import javax.annotation.Nonnull;
 

@@ -21,8 +21,8 @@ import android.util.SparseArray;
 import com.android.inputmethod.keyboard.internal.KeyVisualAttributes;
 import com.android.inputmethod.keyboard.internal.KeyboardIconsSet;
 import com.android.inputmethod.keyboard.internal.KeyboardParams;
-import com.android.inputmethod.latin.common.Constants;
-import com.android.inputmethod.latin.common.CoordinateUtils;
+import com.android.inputmethod.enhancedime.common.Constants;
+import com.android.inputmethod.enhancedime.common.CoordinateUtils;
 
 import java.util.ArrayList;
 import java.util.Collections;

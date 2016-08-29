@@ -21,9 +21,9 @@ import android.util.SparseIntArray;
 
 import com.android.inputmethod.compat.CharacterCompat;
 import com.android.inputmethod.keyboard.Key;
-import com.android.inputmethod.latin.common.CollectionUtils;
-import com.android.inputmethod.latin.common.Constants;
-import com.android.inputmethod.latin.common.StringUtils;
+import com.android.inputmethod.enhancedime.common.CollectionUtils;
+import com.android.inputmethod.enhancedime.common.Constants;
+import com.android.inputmethod.enhancedime.common.StringUtils;
 
 import java.util.ArrayList;
 import java.util.HashSet;

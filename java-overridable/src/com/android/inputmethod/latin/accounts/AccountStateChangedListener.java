@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin.accounts;
+package com.android.inputmethod.enhancedime.accounts;
 
 import android.support.annotation.NonNull;
 

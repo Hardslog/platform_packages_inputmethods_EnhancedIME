@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin.about;
+package com.android.inputmethod.enhancedime.about;
 
 import android.app.Fragment;
 

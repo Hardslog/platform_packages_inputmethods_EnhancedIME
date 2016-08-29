@@ -18,7 +18,7 @@ package com.android.inputmethod.keyboard.internal;
 
 import android.graphics.Typeface;
 
-import com.android.inputmethod.latin.utils.ResourceUtils;
+import com.android.inputmethod.enhancedime.utils.ResourceUtils;
 
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;

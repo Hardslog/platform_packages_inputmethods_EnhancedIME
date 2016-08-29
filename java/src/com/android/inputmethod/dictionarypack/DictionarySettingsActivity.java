@@ -16,7 +16,7 @@
 
 package com.android.inputmethod.dictionarypack;
 
-import com.android.inputmethod.latin.utils.FragmentUtils;
+import com.android.inputmethod.enhancedime.utils.FragmentUtils;
 
 import android.annotation.TargetApi;
 import android.content.Intent;

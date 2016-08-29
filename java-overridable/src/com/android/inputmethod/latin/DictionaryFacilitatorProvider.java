@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.inputmethod.latin;
+package com.android.inputmethod.enhancedime;
 
 /**
  * Factory for instantiating DictionaryFacilitator objects.

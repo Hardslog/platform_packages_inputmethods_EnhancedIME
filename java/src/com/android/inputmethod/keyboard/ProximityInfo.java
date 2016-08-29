@@ -20,8 +20,8 @@ import android.graphics.Rect;
 import android.util.Log;
 
 import com.android.inputmethod.keyboard.internal.TouchPositionCorrection;
-import com.android.inputmethod.latin.common.Constants;
-import com.android.inputmethod.latin.utils.JniUtils;
+import com.android.inputmethod.enhancedime.common.Constants;
+import com.android.inputmethod.enhancedime.utils.JniUtils;
 
 import java.util.ArrayList;
 import java.util.Arrays;

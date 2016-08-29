@@ -20,8 +20,8 @@ import android.content.res.TypedArray;
 import android.graphics.Typeface;
 import android.util.SparseIntArray;
 
-import com.android.inputmethod.latin.R;
-import com.android.inputmethod.latin.utils.ResourceUtils;
+import com.android.inputmethod.enhancedime.R;
+import com.android.inputmethod.enhancedime.utils.ResourceUtils;
 
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;

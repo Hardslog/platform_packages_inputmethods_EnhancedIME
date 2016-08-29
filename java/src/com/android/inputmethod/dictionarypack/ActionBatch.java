@@ -25,11 +25,11 @@ import android.net.Uri;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.android.inputmethod.latin.BinaryDictionaryFileDumper;
-import com.android.inputmethod.latin.R;
-import com.android.inputmethod.latin.common.LocaleUtils;
-import com.android.inputmethod.latin.utils.ApplicationUtils;
-import com.android.inputmethod.latin.utils.DebugLogUtils;
+import com.android.inputmethod.enhancedime.BinaryDictionaryFileDumper;
+import com.android.inputmethod.enhancedime.R;
+import com.android.inputmethod.enhancedime.common.LocaleUtils;
+import com.android.inputmethod.enhancedime.utils.ApplicationUtils;
+import com.android.inputmethod.enhancedime.utils.DebugLogUtils;
 
 import java.util.LinkedList;
 import java.util.Queue;
