@@ -21,23 +21,12 @@
 <merge
   xmlns:latin="http://schemas.android.com/apk/res/com.android.inputmethod.latin">
     <Key latin:keySpec="1" 
-         latin:keyHintLabel=" ͜ʖ"
-         latin:moreKeys="( ͡° ͜ʖ ͡°)"
-         latin:additionalMoreKeys="( ͠° ͟ʖ ͡°)" />
+         latin:keyHintLabel="login"
+         latin:additionalMoreKeys="parts@greentractors.ca" />
     <Key latin:keySpec="2" 
-         latin:keyHintLabel="ツ"
-         latin:additionalMoreKeys="¯ǀ_(ツ)_ǀ¯"
-         latin:moreKeys="¯ǀ_(☉Д☉)_ǀ¯" />
-    <Key latin:keySpec="3"
-         latin:keyHintLabel="︵"
-         latin:additionalMoreKeys="(╯°□°）╯︵"
-         latin:moreKeys="┻━┻" />
-    <Key latin:keySpec="4" 
-         latin:keyHintLabel="o"
-         latin:moreKeys="⌐(.O.)¬"
-         latin:additionalMoreKeys="┬─┬" />
-    <Key latin:keySpec="5"
-         latin:keyHintLabel="⊃"
-         latin:moreKeys="(∩•̀‸•́)⊃/̵͇̿̿/’̿’̿ ̿" 
-         latin:additionalMoreKeys="(∩•̀‸•́)⊃[̶——"  />
+         latin:keyHintLabel="pw"
+         latin:additionalMoreKeys="nobleton" />
+    <Key latin:keySpec="3" />
+    <Key latin:keySpec="4" />
+    <Key latin:keySpec="5" />
 </merge>
