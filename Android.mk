@@ -14,3 +14,5 @@
 
 subdirs := common native java tests tools
 include $(call all-named-subdir-makefiles, $(subdirs))
+
+LOCAL_LDLIBS := libjni_latinimegoogle
