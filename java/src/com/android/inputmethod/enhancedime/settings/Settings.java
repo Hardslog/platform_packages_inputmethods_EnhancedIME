@@ -31,11 +31,9 @@ import com.android.inputmethod.enhancedime.InputAttributes;
 import com.android.inputmethod.enhancedime.R;
 import com.android.inputmethod.enhancedime.common.StringUtils;
 import com.android.inputmethod.enhancedime.utils.AdditionalSubtypeUtils;
-import com.android.inputmethod.enhancedime.utils.JniUtils;
 import com.android.inputmethod.enhancedime.utils.ResourceUtils;
 import com.android.inputmethod.enhancedime.utils.RunInLocale;
 import com.android.inputmethod.enhancedime.utils.StatsUtils;
-
 import java.util.Collections;
 import java.util.Locale;
 import java.util.Set;
@@ -231,9 +229,6 @@ public final class Settings implements SharedPreferences.OnSharedPreferenceChang
     }
 
     public static boolean readFromBuildConfigIfGestureInputEnabled(final Resources res) {
-        if (!JniUtils.mHaveGestureLib) {
-            return false;
-        }
         return res.getBoolean(R.bool.config_gesture_input_enabled_by_build_config);
     }
 
