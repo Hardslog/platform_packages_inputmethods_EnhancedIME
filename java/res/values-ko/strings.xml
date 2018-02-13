@@ -22,7 +22,7 @@
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="english_ime_input_options" msgid="3909945612939668554">"입력 옵션"</string>
     <string name="use_contacts_for_spellchecking_option_title" msgid="5374120998125353898">"연락처 이름 조회"</string>
-    <string name="use_contacts_for_spellchecking_option_summary" msgid="8754413382543307713">"맞춤법 검사기가 주소록의 항목을 사용합니다."</string>
+    <string name="use_contacts_for_spellchecking_option_summary" msgid="8754413382543307713">"맞춤법 검사기가 연락처 목록의 항목을 사용합니다."</string>
     <string name="vibrate_on_keypress" msgid="5258079494276955460">"키를 누를 때 진동 발생"</string>
     <string name="sound_on_keypress" msgid="6093592297198243644">"키를 누를 때 소리 발생"</string>
     <string name="popup_on_keypress" msgid="123894815723512944">"키를 누를 때 팝업"</string>
@@ -43,7 +43,7 @@
     <string name="clear_sync_data_confirmation" msgid="2811931135574727678">"동기화된 데이터가 클라우드에서 삭제됩니다. 계속하시겠습니까?"</string>
     <string name="clear_sync_data_ok" msgid="613104067705915132">"삭제"</string>
     <string name="cloud_sync_cancel" msgid="5877481252150919037">"취소"</string>
-    <string name="cloud_sync_opt_in_text" msgid="9176039655776298248">"개인 사전이 Google 서버에 동기화되며 백업됩니다. Google의 제품 개선을 위해 단어 빈도에 관한 통계 정보가 수집될 수 있습니다. 모든 정보는 "<a href="https://www.google.com/policies/privacy">"Google 개인정보취급방침"</a>"에 따라 수집되고 사용됩니다."</string>
+    <string name="cloud_sync_opt_in_text" msgid="9176039655776298248">"개인 사전이 Google 서버에 동기화되며 백업됩니다. Google의 제품 개선을 위해 단어 빈도에 관한 통계 정보가 수집될 수 있습니다. 모든 정보는 "<a href="https://www.google.com/policies/privacy">"Google 개인정보처리방침"</a>"에 따라 수집되고 사용됩니다."</string>
     <string name="add_account_to_enable_sync" msgid="7836932571852055265">"이 기능을 사용하려면 기기에 Google 계정을 추가하세요."</string>
     <string name="cloud_sync_summary_disabled_work_profile" msgid="1381770407303129164">"Google Apps for Work 계정을 사용하는 기기에서는 동기화할 수 없습니다."</string>
     <string name="include_other_imes_in_language_switch_list" msgid="4533689960308565519">"다른 입력 방법으로 전환"</string>

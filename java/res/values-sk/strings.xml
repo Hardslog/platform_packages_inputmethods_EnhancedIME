@@ -22,7 +22,7 @@
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="english_ime_input_options" msgid="3909945612939668554">"Možnosti zadávania textu a údajov"</string>
     <string name="use_contacts_for_spellchecking_option_title" msgid="5374120998125353898">"Hľadať mená kontaktov"</string>
-    <string name="use_contacts_for_spellchecking_option_summary" msgid="8754413382543307713">"Kontrola pravopisu používa záznamy z vášho zoznamu kontaktov"</string>
+    <string name="use_contacts_for_spellchecking_option_summary" msgid="8754413382543307713">"Kontrola pravopisu používa záznamy z vášho zoznamu kontaktov"</string>
     <string name="vibrate_on_keypress" msgid="5258079494276955460">"Pri stlačení klávesu vibrovať"</string>
     <string name="sound_on_keypress" msgid="6093592297198243644">"Zvuk pri stlačení klávesu"</string>
     <string name="popup_on_keypress" msgid="123894815723512944">"Detail znaku pri stlačení"</string>
@@ -183,9 +183,9 @@
     <string name="install_dict" msgid="180852772562189365">"Inštalovať"</string>
     <string name="cancel_download_dict" msgid="7843340278507019303">"Zrušiť"</string>
     <string name="delete_dict" msgid="756853268088330054">"Odstrániť"</string>
-    <string name="should_download_over_metered_prompt" msgid="6737084685073734292">"Pre vybratý jazyk mobilného zariadenia je k dispozícii slovník.&lt;br/&gt; Odporúčame vám &lt;b&gt;stiahnuť&lt;/b&gt; slovník jazyka <xliff:g id="LANGUAGE_NAME">%1$s</xliff:g>. Pomôže vám pri zadávaní textu.&lt;br/&gt; &lt;br/&gt; V sieti 3G môže sťahovanie chvíľu trvať. Ak nemáte &lt;b&gt;neobmedzenú dátovú tarifu&lt;/b&gt;, môžu sa účtovať poplatky.&lt;br/&gt; Ak s určitosťou neviete, aký dátový program používate, vyhľadajte pripojenie k sieti Wi-Fi a sťahovanie sa spustí automaticky.&lt;br/&gt; &lt;br/&gt; Slovníky môžete v mobilnom zariadení sťahovať a odstraňovať v časti &lt;b&gt;Jazyk a vstup&lt;/b&gt; v ponuke &lt;b&gt;Nastavenia&lt;/b&gt;."</string>
+    <string name="should_download_over_metered_prompt" msgid="6737084685073734292">"Pre vybratý jazyk mobilného zariadenia je k dispozícii slovník.&lt;br/&gt; Odporúčame vám &lt;b&gt;stiahnuť&lt;/b&gt; slovník jazyka <xliff:g id="LANGUAGE_NAME">%1$s</xliff:g>. Pomôže vám pri zadávaní textu.&lt;br/&gt; &lt;br/&gt; V sieti 3G môže sťahovanie chvíľu trvať. Ak nemáte &lt;b&gt;neobmedzenú dátovú tarifu&lt;/b&gt;, môžu sa účtovať poplatky.&lt;br/&gt; Ak s určitosťou neviete, aký dátový program používate, vyhľadajte pripojenie k sieti Wi‑Fi a sťahovanie sa spustí automaticky.&lt;br/&gt; &lt;br/&gt; Slovníky môžete v mobilnom zariadení sťahovať a odstraňovať v časti &lt;b&gt;Jazyk a vstup&lt;/b&gt; v ponuke &lt;b&gt;Nastavenia&lt;/b&gt;."</string>
     <string name="download_over_metered" msgid="1643065851159409546">"Stiahnuť (<xliff:g id="SIZE_IN_MEGABYTES">%1$.1f</xliff:g> MB)"</string>
-    <string name="do_not_download_over_metered" msgid="2176209579313941583">"Stiahnuť cez sieť Wi-Fi"</string>
+    <string name="do_not_download_over_metered" msgid="2176209579313941583">"Stiahnuť cez sieť Wi‑Fi"</string>
     <string name="dict_available_notification_title" msgid="4583842811218581658">"K dispozícii je slovník pre jazyk <xliff:g id="LANGUAGE_NAME">%1$s</xliff:g>"</string>
     <string name="dict_available_notification_description" msgid="1075194169443163487">"Stlačením skontrolujete a prevezmete"</string>
     <string name="toast_downloading_suggestions" msgid="6128155879830851739">"Sťahovanie: návrhy pre jazyk <xliff:g id="LANGUAGE_NAME">%1$s</xliff:g> budú čoskoro k dispozícii."</string>
