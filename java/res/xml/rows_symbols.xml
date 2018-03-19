@@ -27,6 +27,7 @@
         latin:keyboardLayout="@xml/key_styles_currency" />
     <Row
         latin:keyWidth="10%p"
+        latin:rowHeight="19%p"
     >
         <include
 	    latin:keyboardLayout="@xml/rowkeys_symbols0" />

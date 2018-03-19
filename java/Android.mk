@@ -45,9 +45,9 @@ LOCAL_SDK_VERSION := current
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
-ifeq ($(TARGET_DEVICE),generic_arm64)
+# ifeq ($(TARGET_DEVICE),aosp_arm64-eng)
 LOCAL_MODULE_PATH := $(TARGET_OUT_DATA)
 LOCAL_MULTILIB := both
-endif
+# endif
 
 include $(BUILD_PACKAGE)
